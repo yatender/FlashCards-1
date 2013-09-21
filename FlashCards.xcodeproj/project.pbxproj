@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F438A3717ED18D800647A6E /* FCCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F438A3517ED18D800647A6E /* FCCardViewController.m */; };
+		5F438A3817ED18D800647A6E /* FCCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F438A3617ED18D800647A6E /* FCCardViewController.xib */; };
+		5F438A3C17ED194A00647A6E /* FCResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F438A3A17ED194A00647A6E /* FCResultViewController.m */; };
+		5F438A3D17ED194A00647A6E /* FCResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F438A3B17ED194A00647A6E /* FCResultViewController.xib */; };
 		5F857B7717EBE2B500E2EAE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F857B7617EBE2B500E2EAE6 /* UIKit.framework */; };
 		5F857B7917EBE2B500E2EAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F857B7817EBE2B500E2EAE6 /* Foundation.framework */; };
 		5F857B7B17EBE2B500E2EAE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F857B7A17EBE2B500E2EAE6 /* CoreGraphics.framework */; };
@@ -22,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F438A3417ED18D800647A6E /* FCCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCardViewController.h; sourceTree = "<group>"; };
+		5F438A3517ED18D800647A6E /* FCCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCardViewController.m; sourceTree = "<group>"; };
+		5F438A3617ED18D800647A6E /* FCCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FCCardViewController.xib; path = ../Classes/FCCardViewController.xib; sourceTree = "<group>"; };
+		5F438A3917ED194A00647A6E /* FCResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCResultViewController.h; sourceTree = "<group>"; };
+		5F438A3A17ED194A00647A6E /* FCResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCResultViewController.m; sourceTree = "<group>"; };
+		5F438A3B17ED194A00647A6E /* FCResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FCResultViewController.xib; path = ../Classes/FCResultViewController.xib; sourceTree = "<group>"; };
 		5F857B7317EBE2B500E2EAE6 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F857B7617EBE2B500E2EAE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F857B7817EBE2B500E2EAE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,13 +40,13 @@
 		5F857B8017EBE2B500E2EAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F857B8217EBE2B500E2EAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F857B8417EBE2B500E2EAE6 /* FlashCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCards-Prefix.pch"; sourceTree = "<group>"; };
-		5F857B8517EBE2B500E2EAE6 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
-		5F857B8617EBE2B500E2EAE6 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		5F857B8517EBE2B500E2EAE6 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FCAppDelegate.h; path = ../FCAppDelegate.h; sourceTree = "<group>"; };
+		5F857B8617EBE2B500E2EAE6 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FCAppDelegate.m; path = ../FCAppDelegate.m; sourceTree = "<group>"; };
 		5F857B8817EBE2B500E2EAE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F857B8A17EBE2B500E2EAE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F857B8C17EBE2B500E2EAE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5F857B8E17EBE2B500E2EAE6 /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
-		5F857B8F17EBE2B500E2EAE6 /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		5F857B8E17EBE2B500E2EAE6 /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FCViewController.h; path = ../FCViewController.h; sourceTree = "<group>"; };
+		5F857B8F17EBE2B500E2EAE6 /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FCViewController.m; path = ../FCViewController.m; sourceTree = "<group>"; };
 		5F857B9217EBE2B500E2EAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FCViewController_iPhone.xib; sourceTree = "<group>"; };
 		5F857B9517EBE2B500E2EAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FCViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,9 +65,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F438A3117ED12BA00647A6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F857B8517EBE2B500E2EAE6 /* FCAppDelegate.h */,
+				5F857B8617EBE2B500E2EAE6 /* FCAppDelegate.m */,
+				5F857B8E17EBE2B500E2EAE6 /* FCViewController.h */,
+				5F857B8F17EBE2B500E2EAE6 /* FCViewController.m */,
+				5F438A3417ED18D800647A6E /* FCCardViewController.h */,
+				5F438A3517ED18D800647A6E /* FCCardViewController.m */,
+				5F438A3917ED194A00647A6E /* FCResultViewController.h */,
+				5F438A3A17ED194A00647A6E /* FCResultViewController.m */,
+			);
+			name = Classes;
+			path = FlashCards/Classes;
+			sourceTree = "<group>";
+		};
+		5F438A3317ED12E800647A6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F438A3B17ED194A00647A6E /* FCResultViewController.xib */,
+				5F438A3617ED18D800647A6E /* FCCardViewController.xib */,
+				5F857B9117EBE2B500E2EAE6 /* FCViewController_iPhone.xib */,
+				5F857B9417EBE2B500E2EAE6 /* FCViewController_iPad.xib */,
+			);
+			name = Resources;
+			path = FlashCards/Resources;
+			sourceTree = "<group>";
+		};
 		5F857B6A17EBE2B500E2EAE6 = {
 			isa = PBXGroup;
 			children = (
+				5F438A3317ED12E800647A6E /* Resources */,
+				5F438A3117ED12BA00647A6E /* Classes */,
 				5F857B7C17EBE2B500E2EAE6 /* FlashCards */,
 				5F857B7517EBE2B500E2EAE6 /* Frameworks */,
 				5F857B7417EBE2B500E2EAE6 /* Products */,
@@ -85,12 +125,6 @@
 		5F857B7C17EBE2B500E2EAE6 /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
-				5F857B8517EBE2B500E2EAE6 /* FCAppDelegate.h */,
-				5F857B8617EBE2B500E2EAE6 /* FCAppDelegate.m */,
-				5F857B8E17EBE2B500E2EAE6 /* FCViewController.h */,
-				5F857B8F17EBE2B500E2EAE6 /* FCViewController.m */,
-				5F857B9117EBE2B500E2EAE6 /* FCViewController_iPhone.xib */,
-				5F857B9417EBE2B500E2EAE6 /* FCViewController_iPad.xib */,
 				5F857B7D17EBE2B500E2EAE6 /* Supporting Files */,
 			);
 			path = FlashCards;
@@ -168,6 +202,8 @@
 				5F857B8D17EBE2B500E2EAE6 /* Default-568h@2x.png in Resources */,
 				5F857B9317EBE2B500E2EAE6 /* FCViewController_iPhone.xib in Resources */,
 				5F857B9617EBE2B500E2EAE6 /* FCViewController_iPad.xib in Resources */,
+				5F438A3817ED18D800647A6E /* FCCardViewController.xib in Resources */,
+				5F438A3D17ED194A00647A6E /* FCResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +217,8 @@
 				5F857B8317EBE2B500E2EAE6 /* main.m in Sources */,
 				5F857B8717EBE2B500E2EAE6 /* FCAppDelegate.m in Sources */,
 				5F857B9017EBE2B500E2EAE6 /* FCViewController.m in Sources */,
+				5F438A3717ED18D800647A6E /* FCCardViewController.m in Sources */,
+				5F438A3C17ED194A00647A6E /* FCResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +239,7 @@
 				5F857B9217EBE2B500E2EAE6 /* en */,
 			);
 			name = FCViewController_iPhone.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5F857B9417EBE2B500E2EAE6 /* FCViewController_iPad.xib */ = {
@@ -209,6 +248,7 @@
 				5F857B9517EBE2B500E2EAE6 /* en */,
 			);
 			name = FCViewController_iPad.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,6 +353,7 @@
 				5F857B9B17EBE2B500E2EAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
